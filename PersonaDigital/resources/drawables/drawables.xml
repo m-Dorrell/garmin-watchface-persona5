@@ -1,0 +1,1091 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+        
+    <!-- Months -->
+    <!-- Bottom -->
+    <bitmap id="MonthBottom1" x="center" y="center" filename="../img/month/bottom/1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom2" x="center" y="center" filename="../img/month/bottom/2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom3" x="center" y="center" filename="../img/month/bottom/3.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom4" x="center" y="center" filename="../img/month/bottom/4.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom5" x="center" y="center" filename="../img/month/bottom/5.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom6" x="center" y="center" filename="../img/month/bottom/6.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom7" x="center" y="center" filename="../img/month/bottom/7.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom8" x="center" y="center" filename="../img/month/bottom/8.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom9" x="center" y="center" filename="../img/month/bottom/9.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom10" x="center" y="center" filename="../img/month/bottom/10.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom11" x="center" y="center" filename="../img/month/bottom/11.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthBottom12" x="center" y="center" filename="../img/month/bottom/12.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Middle -->
+    <bitmap id="MonthMiddle1" x="center" y="center" filename="../img/month/middle/1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle2" x="center" y="center" filename="../img/month/middle/2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle3" x="center" y="center" filename="../img/month/middle/3.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle4" x="center" y="center" filename="../img/month/middle/4.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle5" x="center" y="center" filename="../img/month/middle/5.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle6" x="center" y="center" filename="../img/month/middle/6.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle7" x="center" y="center" filename="../img/month/middle/7.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle8" x="center" y="center" filename="../img/month/middle/8.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle9" x="center" y="center" filename="../img/month/middle/9.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle10" x="center" y="center" filename="../img/month/middle/10.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle11" x="center" y="center" filename="../img/month/middle/11.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthMiddle12" x="center" y="center" filename="../img/month/middle/12.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Top -->
+    <bitmap id="MonthTop1" x="center" y="center" filename="../img/month/top/1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop2" x="center" y="center" filename="../img/month/top/2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop3" x="center" y="center" filename="../img/month/top/3.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop4" x="center" y="center" filename="../img/month/top/4.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop5" x="center" y="center" filename="../img/month/top/5.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop6" x="center" y="center" filename="../img/month/top/6.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop7" x="center" y="center" filename="../img/month/top/7.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop8" x="center" y="center" filename="../img/month/top/8.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop9" x="center" y="center" filename="../img/month/top/9.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop10" x="center" y="center" filename="../img/month/top/10.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="MonthTop11" x="center" y="center" filename="../img/month/top/11.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+        <bitmap id="MonthTop12" x="center" y="center" filename="../img/month/top/12.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>    
+    
+    <!-- Days -->
+    <!-- Bottom -->
+    <bitmap id="DayBottom0" x="center" y="center" filename="../img/day/bottom/0.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom1" x="center" y="center" filename="../img/day/bottom/1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom2" x="center" y="center" filename="../img/day/bottom/2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom3" x="center" y="center" filename="../img/day/bottom/3.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom4" x="center" y="center" filename="../img/day/bottom/4.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom5" x="center" y="center" filename="../img/day/bottom/5.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom6" x="center" y="center" filename="../img/day/bottom/6.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom7" x="center" y="center" filename="../img/day/bottom/7.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom8" x="center" y="center" filename="../img/day/bottom/8.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom9" x="center" y="center" filename="../img/day/bottom/9.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom10" x="center" y="center" filename="../img/day/bottom/10.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom11" x="center" y="center" filename="../img/day/bottom/11.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom12" x="center" y="center" filename="../img/day/bottom/12.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom13" x="center" y="center" filename="../img/day/bottom/13.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom14" x="center" y="center" filename="../img/day/bottom/14.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom15" x="center" y="center" filename="../img/day/bottom/15.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom16" x="center" y="center" filename="../img/day/bottom/16.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom17" x="center" y="center" filename="../img/day/bottom/17.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom18" x="center" y="center" filename="../img/day/bottom/18.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom19" x="center" y="center" filename="../img/day/bottom/19.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom20" x="center" y="center" filename="../img/day/bottom/20.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom21" x="center" y="center" filename="../img/day/bottom/21.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom22" x="center" y="center" filename="../img/day/bottom/22.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom23" x="center" y="center" filename="../img/day/bottom/23.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom24" x="center" y="center" filename="../img/day/bottom/24.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom25" x="center" y="center" filename="../img/day/bottom/25.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom26" x="center" y="center" filename="../img/day/bottom/26.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom27" x="center" y="center" filename="../img/day/bottom/27.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom28" x="center" y="center" filename="../img/day/bottom/28.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom29" x="center" y="center" filename="../img/day/bottom/29.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom30" x="center" y="center" filename="../img/day/bottom/30.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayBottom31" x="center" y="center" filename="../img/day/bottom/31.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Middle -->
+    <bitmap id="DayMiddle0" x="center" y="center" filename="../img/day/middle/0.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle1" x="center" y="center" filename="../img/day/middle/1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle2" x="center" y="center" filename="../img/day/middle/2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle3" x="center" y="center" filename="../img/day/middle/3.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle4" x="center" y="center" filename="../img/day/middle/4.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle5" x="center" y="center" filename="../img/day/middle/5.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle6" x="center" y="center" filename="../img/day/middle/6.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle7" x="center" y="center" filename="../img/day/middle/7.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle8" x="center" y="center" filename="../img/day/middle/8.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle9" x="center" y="center" filename="../img/day/middle/9.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle10" x="center" y="center" filename="../img/day/middle/10.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle11" x="center" y="center" filename="../img/day/middle/11.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle12" x="center" y="center" filename="../img/day/middle/12.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle13" x="center" y="center" filename="../img/day/middle/13.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle14" x="center" y="center" filename="../img/day/middle/14.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle15" x="center" y="center" filename="../img/day/middle/15.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle16" x="center" y="center" filename="../img/day/middle/16.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle17" x="center" y="center" filename="../img/day/middle/17.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle18" x="center" y="center" filename="../img/day/middle/18.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle19" x="center" y="center" filename="../img/day/middle/19.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle20" x="center" y="center" filename="../img/day/middle/20.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle21" x="center" y="center" filename="../img/day/middle/21.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle22" x="center" y="center" filename="../img/day/middle/22.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle23" x="center" y="center" filename="../img/day/middle/23.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle24" x="center" y="center" filename="../img/day/middle/24.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle25" x="center" y="center" filename="../img/day/middle/25.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle26" x="center" y="center" filename="../img/day/middle/26.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle27" x="center" y="center" filename="../img/day/middle/27.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle28" x="center" y="center" filename="../img/day/middle/28.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle29" x="center" y="center" filename="../img/day/middle/29.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle30" x="center" y="center" filename="../img/day/middle/30.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayMiddle31" x="center" y="center" filename="../img/day/middle/31.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Top -->
+    <bitmap id="DayTop0" x="center" y="center" filename="../img/day/top/0.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop1" x="center" y="center" filename="../img/day/top/1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop2" x="center" y="center" filename="../img/day/top/2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop3" x="center" y="center" filename="../img/day/top/3.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop4" x="center" y="center" filename="../img/day/top/4.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop5" x="center" y="center" filename="../img/day/top/5.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop6" x="center" y="center" filename="../img/day/top/6.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop7" x="center" y="center" filename="../img/day/top/7.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop8" x="center" y="center" filename="../img/day/top/8.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop9" x="center" y="center" filename="../img/day/top/9.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop10" x="center" y="center" filename="../img/day/top/10.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop11" x="center" y="center" filename="../img/day/top/11.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop12" x="center" y="center" filename="../img/day/top/12.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop13" x="center" y="center" filename="../img/day/top/13.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop14" x="center" y="center" filename="../img/day/top/14.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop15" x="center" y="center" filename="../img/day/top/15.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop16" x="center" y="center" filename="../img/day/top/16.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop17" x="center" y="center" filename="../img/day/top/17.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop18" x="center" y="center" filename="../img/day/top/18.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop19" x="center" y="center" filename="../img/day/top/19.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop20" x="center" y="center" filename="../img/day/top/20.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop21" x="center" y="center" filename="../img/day/top/21.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop22" x="center" y="center" filename="../img/day/top/22.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop23" x="center" y="center" filename="../img/day/top/23.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop24" x="center" y="center" filename="../img/day/top/24.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop25" x="center" y="center" filename="../img/day/top/25.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop26" x="center" y="center" filename="../img/day/top/26.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop27" x="center" y="center" filename="../img/day/top/27.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop28" x="center" y="center" filename="../img/day/top/28.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop29" x="center" y="center" filename="../img/day/top/29.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop30" x="center" y="center" filename="../img/day/top/30.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="DayTop31" x="center" y="center" filename="../img/day/top/31.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Weekday -->
+    <!-- Bottom -->
+    <bitmap id="MondayBottom" x="center" y="center" filename="../img/weekday/bottom/monday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="TuesdayBottom" x="center" y="center" filename="../img/weekday/bottom/tuesday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WednesdayBottom" x="center" y="center" filename="../img/weekday/bottom/wednesday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="ThursdayBottom" x="center" y="center" filename="../img/weekday/bottom/thursday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="FridayBottom" x="center" y="center" filename="../img/weekday/bottom/friday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="SaturdayBottom" x="center" y="center" filename="../img/weekday/bottom/saturday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="SundayBottom" x="center" y="center" filename="../img/weekday/bottom/sunday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Middle -->
+    <bitmap id="MondayMiddle" x="center" y="center" filename="../img/weekday/middle/monday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="TuesdayMiddle" x="center" y="center" filename="../img/weekday/middle/tuesday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WednesdayMiddle" x="center" y="center" filename="../img/weekday/middle/wednesday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="ThursdayMiddle" x="center" y="center" filename="../img/weekday/middle/thursday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="FridayMiddle" x="center" y="center" filename="../img/weekday/middle/friday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="SaturdayMiddle" x="center" y="center" filename="../img/weekday/middle/saturday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="SundayMiddle" x="center" y="center" filename="../img/weekday/middle/sunday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Top -->
+    <bitmap id="MondayTop" x="center" y="center" filename="../img/weekday/top/monday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    <bitmap id="TuesdayTop" x="center" y="center" filename="../img/weekday/top/tuesday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WednesdayTop" x="center" y="center" filename="../img/weekday/top/wednesday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    <bitmap id="ThursdayTop" x="center" y="center" filename="../img/weekday/top/thursday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    <bitmap id="FridayTop" x="center" y="center" filename="../img/weekday/top/friday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    <bitmap id="SaturdayTop" x="center" y="center" filename="../img/weekday/top/saturday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    <bitmap id="SundayTop" x="center" y="center" filename="../img/weekday/top/sunday.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Weather Types -->
+    <bitmap id="WeatherSunny" x="center" y="center" filename="../img/weather/sunny.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherRainy" x="center" y="center" filename="../img/weather/rainy.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherCloudy" x="center" y="center" filename="../img/weather/cloudy.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherSnowy" x="center" y="center" filename="../img/weather/snowy.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
+    <!-- Backgrounds -->
+    <bitmap id="BackgroundDay" x="center" y="center" filename="../img/background/backgroundDay.jpg">
+    	<palette disableTransparency="true">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    <bitmap id="BackgroundNight" x="center" y="center" filename="../img/background/backgroundNight.jpg">
+    	<palette disableTransparency="true">
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+            <color>FF0000</color>
+            <color>AA0000</color>
+            <color>FF5500</color>
+            <color>FFAA00</color>
+            <color>00FF00</color>
+            <color>00AA00</color>
+            <color>00AAFF</color>
+            <color>0000FF</color>
+            <color>AA00FF</color>
+            <color>FF00FF</color>
+        </palette>
+    </bitmap>
+    
+</drawables>

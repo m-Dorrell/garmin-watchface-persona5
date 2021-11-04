@@ -1,0 +1,6 @@
+<resources>
+    <fonts>
+        <font id="PersonaFont" filename="fonts/personaFont.fnt" filter="0123456789:"/>
+        <font id="PersonaFontLarger" filename="fonts/personaFontLarger.fnt" filter="0123456789:"/>
+    </fonts>
+</resources>
