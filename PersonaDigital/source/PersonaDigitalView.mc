@@ -6,16 +6,21 @@ import Toybox.WatchUi;
 import Toybox.Time.Gregorian;
 import Toybox.Weather;
 
+// Persona Digital View updates the time, date and weather on every timestep with an animation
 class PersonaDigitalView extends WatchUi.WatchFace {
 	
-	var personaFont;
-	var personaFontLarger;
+	private var personaFont;
+	private var personaFontLarger;
 	
-	var datePosX = 40;
-	var datePosY = 40;
+	private var datePosX = 40;
+	private var datePosY = 40;
 	
-    function initialize() {
+	private var weatherCounter = 0;
+	private var countWeather = false;
+	
+    public function initialize() {
         WatchFace.initialize();
+        new PersonaInputDelegate(self);
     }
 
     // Load your resources here
@@ -30,7 +35,7 @@ class PersonaDigitalView extends WatchUi.WatchFace {
     // the state of this View and prepare it to be shown. This includes
     // loading resources into memory.
     function onShow() as Void {
-
+		countWeather = true;
     }
 
     // Update the view
@@ -46,11 +51,83 @@ class PersonaDigitalView extends WatchUi.WatchFace {
         var background = WatchUi.loadResource(backgroundResource);
 
 		// Set the month
+		var months = pickMonthResources(today.month);
+		var monthBottom = months[0];
+    	var monthMiddle = months[1];
+    	var monthTop = months[2];
+		
+		// Set the day
+		var todays = pickDayResources(today.day);
+    	var dayBottom = todays[0];
+    	var dayMiddle = todays[1];
+    	var dayTop = todays[2];
+    	var weatherPosXOffset = todays[3];
+    	
+    	// Set the day of the week
+		var weekdays = pickWeekdayResources(today.day_of_week);		
+    	var weekdayBottom = weekdays[0];
+    	var weekdayMiddle = weekdays[1];
+    	var weekdayTop = weekdays[2];
+
+        // Find what the weather currently is
+		var weather = WatchUi.loadResource(pickWeatherResources(pickWeatherType(), weatherCounter));
+		// Update weather counter
+		if (countWeather) {
+			weatherCounter++;
+			if (weatherCounter > 5) {
+				weatherCounter = 0;
+				countWeather = false;
+			}
+		}
+		
+        // Call the parent onUpdate function to redraw the layout
+        View.onUpdate(dc);
+        
+        dc.drawBitmap(0, 0, background);
+        
+        dc.drawBitmap(datePosX - 5, datePosY, monthBottom);
+		dc.drawBitmap(datePosX, datePosY, dayBottom);
+        dc.drawBitmap(datePosX, datePosY + 8, weekdayBottom);
+        
+		dc.drawBitmap(datePosX + weatherPosXOffset, datePosY + 8, weather);
+        
+        dc.drawBitmap(datePosX - 5, datePosY, monthMiddle);
+        dc.drawBitmap(datePosX, datePosY, dayMiddle);
+        
+        dc.drawBitmap(datePosX - 5, datePosY, monthTop);
+        dc.drawBitmap(datePosX, datePosY, dayTop);
+
+        dc.drawBitmap(datePosX, datePosY + 8, weekdayMiddle);
+        dc.drawBitmap(datePosX, datePosY + 8, weekdayTop);
+        
+        // Get the current time and format it correctly
+        var timeFormat = "$1$:$2$";
+        var clockTime = System.getClockTime();
+        var hours = clockTime.hour;
+        if (!System.getDeviceSettings().is24Hour) {
+            if (hours > 12) {
+                hours = hours - 12;
+            }
+        } else {
+            if (getApp().getProperty("UseMilitaryFormat")) {
+                timeFormat = "$1$$2$";
+                hours = hours.format("%02d");
+            }
+        }
+        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+
+        // Update the timelabel
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(120, 120, personaFontLarger, timeString, Graphics.TEXT_JUSTIFY_CENTER );
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(120, 120, personaFont, timeString, Graphics.TEXT_JUSTIFY_CENTER );
+    }
+	
+	// Picks the month resources to load based on the month type
+	private function pickMonthResources(todayMonth as string) as Array<Drawable> {
 		var monthBottomResource = Rez.Drawables.MonthBottom1;
 		var monthMiddleResource = Rez.Drawables.MonthMiddle1;
 		var monthTopResource = Rez.Drawables.MonthTop1;
-		var todayMonth = today.month;
-//		var todayMonth = 12;
 		switch (todayMonth) {
 			case 1: {
 				monthBottomResource = Rez.Drawables.MonthBottom1;
@@ -127,17 +204,14 @@ class PersonaDigitalView extends WatchUi.WatchFace {
 			default:
 			break;
 		}
-		
-    	var monthBottom = WatchUi.loadResource(monthBottomResource);
-    	var monthMiddle = WatchUi.loadResource(monthMiddleResource);
-    	var monthTop = WatchUi.loadResource(monthTopResource);
-
-		// Set the day
+    	return [WatchUi.loadResource(monthBottomResource), WatchUi.loadResource(monthMiddleResource), WatchUi.loadResource(monthTopResource)];
+    }
+    
+    // Picks the day resources and offset  to load based on the day type
+    private function pickDayResources(todayDay as string) as Array {
 		var dayBottomResource = Rez.Drawables.DayBottom0;
 		var dayMiddleResource = Rez.Drawables.DayMiddle0;
 		var dayTopResource = Rez.Drawables.DayTop0;
-		var todayDay = today.day;
-//		var todayDay = 11;
 		var weatherPosXOffset = 0;
 		switch (todayDay) {
 			case 0: {
@@ -350,17 +424,14 @@ class PersonaDigitalView extends WatchUi.WatchFace {
 			default:
 			break;
 		}
-		
-    	var dayBottom = WatchUi.loadResource(dayBottomResource);
-    	var dayMiddle = WatchUi.loadResource(dayMiddleResource);
-    	var dayTop = WatchUi.loadResource(dayTopResource);
-    	
-    	// Set the day of the week
+    	return [WatchUi.loadResource(dayBottomResource), WatchUi.loadResource(dayMiddleResource), WatchUi.loadResource(dayTopResource), weatherPosXOffset];
+	}
+	
+	// Picks the weekday resources to load based on the weekday type
+	private function pickWeekdayResources(todayWeekday) as Array<Drawable> {
 		var weekdayBottomResource = Rez.Drawables.MondayBottom;
 		var weekdayMiddleResource = Rez.Drawables.MondayMiddle;
 		var weekdayTopResource = Rez.Drawables.MondayTop;
-		var todayWeekday = today.day_of_week;
-//		var todayWeekday = 7;
 		switch (todayWeekday) {
 			case 1: {
 				weekdayBottomResource = Rez.Drawables.SundayBottom;
@@ -407,13 +478,12 @@ class PersonaDigitalView extends WatchUi.WatchFace {
 			default:
 			break;
 		}
-		
-    	var weekdayBottom = WatchUi.loadResource(weekdayBottomResource);
-    	var weekdayMiddle = WatchUi.loadResource(weekdayMiddleResource);
-    	var weekdayTop = WatchUi.loadResource(weekdayTopResource);
-
-        // Update the weather
-        var weatherResource = Rez.Drawables.WeatherSunny;
+    	return [WatchUi.loadResource(weekdayBottomResource), WatchUi.loadResource(weekdayMiddleResource), WatchUi.loadResource(weekdayTopResource)];
+	}
+	
+	// Picks the weather type to set based on the MANY possibilities
+	private function pickWeatherType() as string {
+		var weatherType = "SUNNY";
         if (Weather.getCurrentConditions() != null) {
             var weatherCondition = Weather.getCurrentConditions().condition;
 	        switch (weatherCondition) {
@@ -430,7 +500,7 @@ class PersonaDigitalView extends WatchUi.WatchFace {
 				case 46:
 				case 47:
 				case 51:
-				weatherResource = Rez.Drawables.WeatherSnowy;
+				weatherType = "SNOWY";
 		        break;
 		        case 3: // Raining
 		        case 7:
@@ -447,7 +517,7 @@ class PersonaDigitalView extends WatchUi.WatchFace {
 				case 6: // Lightning
 			    case 12:
 			    case 28:
-				weatherResource = Rez.Drawables.WeatherRainy;
+				weatherType = "RAINY";
 			    break;
 			    case 1: // Cloudy
 			    case 2:
@@ -459,61 +529,77 @@ class PersonaDigitalView extends WatchUi.WatchFace {
 			    case 33:
 			    case 39:
 			    case 52:
-			    weatherResource = Rez.Drawables.WeatherCloudy;
+			    weatherType = "CLOUDY";
 			    break;
 			    case 0: // Sunny
 			    case 22:
 			    case 23:
 			    case 40:
-			    weatherResource = Rez.Drawables.WeatherSunny;
 			    break;
 			    default: // Unknown
 			    break;
 			}
 		}
-		var weather = WatchUi.loadResource(weatherResource);
-		
-        // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
-        
-        dc.drawBitmap(0, 0, background);
-        
-        dc.drawBitmap(datePosX - 5, datePosY, monthBottom);
-		dc.drawBitmap(datePosX, datePosY, dayBottom);
-        dc.drawBitmap(datePosX, datePosY + 8, weekdayBottom);
-        
-		dc.drawBitmap(datePosX + weatherPosXOffset, datePosY + 8, weather);
-        
-        dc.drawBitmap(datePosX - 5, datePosY, monthMiddle);
-        dc.drawBitmap(datePosX, datePosY, dayMiddle);
-        
-        dc.drawBitmap(datePosX - 5, datePosY, monthTop);
-        dc.drawBitmap(datePosX, datePosY, dayTop);
-
-        dc.drawBitmap(datePosX, datePosY + 8, weekdayMiddle);
-        dc.drawBitmap(datePosX, datePosY + 8, weekdayTop);
-        
-        // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
-        var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
-
-        // Update the timelabel
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(120, 120, personaFontLarger, timeString, Graphics.TEXT_JUSTIFY_CENTER );
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(120, 120, personaFont, timeString, Graphics.TEXT_JUSTIFY_CENTER );
+		return weatherType;
+	}
+    
+    // Picks the weather resources to load based on the weather type and animation counter
+    private function pickWeatherResources(weatherType as string, weatherCounter as int) as Array<Drawable> {
+		var weatherResource = Rez.Drawables.WeatherSunny;
+		switch (weatherType) {
+			case "SNOWY": {
+				if (weatherCounter%3 == 1) {
+					weatherResource = Rez.Drawables.WeatherSnowy1;
+				}
+				else if (weatherCounter%3 == 2) {
+					weatherResource = Rez.Drawables.WeatherSnowy2;
+				}
+				else {
+					weatherResource = Rez.Drawables.WeatherSnowy0;
+				}
+		        break;
+	        }
+	        case "RAINY": {
+	        	if (weatherCounter%3 == 1) {
+					weatherResource = Rez.Drawables.WeatherRainy1;
+				}
+				else if (weatherCounter%3 == 2) {
+					weatherResource = Rez.Drawables.WeatherRainy2;
+				}
+				else {
+					weatherResource = Rez.Drawables.WeatherRainy0;
+				}
+			    break;
+		    }
+		    case "CLOUDY": {
+			    if (weatherCounter%3 == 1) {
+					weatherResource = Rez.Drawables.WeatherCloudy1;
+				}
+				else if (weatherCounter%3 == 2) {
+					weatherResource = Rez.Drawables.WeatherCloudy2;
+				}
+				else {
+					weatherResource = Rez.Drawables.WeatherCloudy0;
+				}
+			    break;
+		    }
+		    case "SUNNY": {
+			    if (weatherCounter%3 == 1) {
+					weatherResource = Rez.Drawables.WeatherSunny1;
+				}
+				else if (weatherCounter%3 == 2) {
+					weatherResource = Rez.Drawables.WeatherSunny2;
+				}
+				else {
+					weatherResource = Rez.Drawables.WeatherSunny0;
+				}
+			    break;
+		    }
+		    default:
+		    break;
+		}
+		System.println(weatherCounter);
+    	return weatherResource;
     }
 
     // Called when this View is removed from the screen. Save the
@@ -524,6 +610,7 @@ class PersonaDigitalView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
+    	countWeather = true;
     }
 
     // Terminate any active timers and prepare for slow updates.

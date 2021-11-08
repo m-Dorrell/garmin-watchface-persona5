@@ -1050,6 +1050,80 @@
         </palette>
     </bitmap>
     
+    <!-- Animated Weather Types -->
+    <bitmap id="WeatherRainy0" x="center" y="center" filename="../img/weatherAnimation/rainy0.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherRainy1" x="center" y="center" filename="../img/weatherAnimation/rainy1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherRainy2" x="center" y="center" filename="../img/weatherAnimation/rainy2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherCloudy0" x="center" y="center" filename="../img/weatherAnimation/cloudy0.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherCloudy1" x="center" y="center" filename="../img/weatherAnimation/cloudy1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherCloudy2" x="center" y="center" filename="../img/weatherAnimation/cloudy2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherSunny0" x="center" y="center" filename="../img/weatherAnimation/sunny0.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherSunny1" x="center" y="center" filename="../img/weatherAnimation/sunny1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherSunny2" x="center" y="center" filename="../img/weatherAnimation/sunny2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherSnowy0" x="center" y="center" filename="../img/weatherAnimation/snowy0.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherSnowy1" x="center" y="center" filename="../img/weatherAnimation/snowy1.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    <bitmap id="WeatherSnowy2" x="center" y="center" filename="../img/weatherAnimation/snowy2.png">
+    	<palette disableTransparency="false">
+            <color>FFFFFF</color>
+            <color>000000</color>
+        </palette>
+    </bitmap>
+    
     <!-- Backgrounds -->
     <bitmap id="BackgroundDay" x="center" y="center" filename="../img/background/backgroundDay.jpg">
     	<palette disableTransparency="true">

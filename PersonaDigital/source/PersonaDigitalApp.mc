@@ -4,6 +4,8 @@ import Toybox.WatchUi;
 
 class PersonaDigitalApp extends Application.AppBase {
 
+	var personaDigitalView;
+
     function initialize() {
         AppBase.initialize();
     }
@@ -18,7 +20,8 @@ class PersonaDigitalApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new PersonaDigitalView() ] as Array<Views or InputDelegates>;
+    	personaDigitalView = new PersonaDigitalView();
+        return [ personaDigitalView ] as Array<Views or InputDelegates>;
     }
 
     // New app settings have been received so trigger a UI update
